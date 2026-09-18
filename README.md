@@ -16,8 +16,8 @@
 - [ ] Calibrate camera-to-map coordinates (homography) — attempted, not reliably aligned with real video; see Known Limitations
 
 ### Phase 5: Prediction & Risk Logic
-- [ ] Compute motion features (position, velocity, heading, acceleration)
-- [ ] Build trajectory prediction module (Kalman filter / LSTM)
+- [x] Compute motion features (position, velocity, heading, acceleration)
+- [x] Build trajectory prediction module (Kalman filter / LSTM)
 - [x] Build conflict detection logic (zone entry + hold-short proximity, tested on simulated paths)
 - [x] Add rule-based safety layer (risk type + severity)
 
