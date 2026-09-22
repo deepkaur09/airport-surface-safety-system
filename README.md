@@ -17,7 +17,7 @@
 
 ### Phase 5: Prediction & Risk Logic
 - [x] Compute motion features (position, velocity, heading, acceleration)
-- [x] Build trajectory prediction module (Kalman filter / LSTM)
+- [x] Build trajectory prediction module (linear extrapolation from recent motion)
 - [x] Build conflict detection logic (zone entry + hold-short proximity, tested on simulated paths)
 - [x] Add rule-based safety layer (risk type + severity)
 
@@ -33,3 +33,6 @@
 ### Phase 8: Wrap-up
 - [ ] Document system (methodology, architecture, results, limitations)
 - [ ] Prepare final demo
+
+### Future Improvements
+- [ ] Build trajectory prediction with Kalman filter (better handles noisy detections and turning motion)
