@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Secrets and system files
+kaggle.json
+.DS_Store
